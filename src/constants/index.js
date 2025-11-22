@@ -49,7 +49,7 @@ export const myProjects = [
     subDescription: [
         "Built a real-time stock market platform using Next.js, delivering live price updates, fast rendering, and optimized performance.",
         "Implemented Better Auth for secure user authentication and role-based access, ensuring reliable account protection.",
-        "Integrated interactive stock charts, search functionality, and personalized watchlists for a smooth and intuitive user experience.",
+        "Integrated interactive stock charts, search functionality, personalized watchlists for a smooth and intuitive user experience.",
         "Added AI-powered insights and daily news summaries to help users make informed investment decisions.",
         "Used Inngest for background jobs and Coderabbit automation for continuous integration and workflow automation, ensuring scalability and reliability."
     ],
