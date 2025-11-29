@@ -28,7 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Web Developer
+            Frontend/Fullstack Developer
           </motion.p>
            <motion.p
             className="text-4xl mt-2 font-medium text-neutral-300"
@@ -80,7 +80,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Web Developer
+            Frontend/Fullstack Developer
           </motion.p>
           <motion.p
             className="text-4xl mt-2 font-black text-neutral-300"

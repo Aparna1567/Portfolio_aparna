@@ -30,8 +30,7 @@ const ProjectDetails = ({
             <li key={index} className="mb-3 font-normal text-neutral-400">{subDesc} </li>
           ))}
           </ul>
-          
-          <div className="flex items-center justify-between mt-4">
+           {/* <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
               {tags.map((tag) => (
                 <img
@@ -45,6 +44,24 @@ const ProjectDetails = ({
             <a href={href} className="inline-flex items-center gap-1 font-medium cursor-pointer  hover-animation">
               View Project{" "}
               <img src="assets/arrow-up.svg" className="size-4" />
+            </a>
+          </div> */}
+          
+          <div className="flex items-center justify-between mt-4 gap-3 flex-wrap">
+            <div className="flex gap-3">
+              {tags.map((tag) => (
+                <img
+                  key={tag.id}
+                  src={tag.path}
+                  alt={tag.name}
+                  className="rounded-lg size-10 hover-animation"
+                />
+              ))}
+            </div>
+            <a href={href} className="flex items-center gap-1 font-medium cursor-pointer
+              hover-animation ">
+<span className="hidden sm:inline">View Project</span>{" "}
+              <img src="assets/arrow-up.svg" className="size-4 shrink-0" />
             </a>
           </div>
         </div>
